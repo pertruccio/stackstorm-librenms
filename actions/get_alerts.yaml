@@ -1,0 +1,27 @@
+---
+name: get_alerts
+description: Get alerts
+runner_type: python-script
+entry_point: get_alerts.py
+enabled: true
+parameters:
+  state:
+    required: false
+    type: integer
+    description: "State"
+    position: 0
+  severity:
+    required: false
+    type: string
+    description: "Severity"
+    position: 1
+  alert_rule:
+    required: false
+    type: integer
+    description: "Alert Rule"
+    position: 2
+  order:
+    required: false
+    type: string
+    description: "Order by"
+    position: 3

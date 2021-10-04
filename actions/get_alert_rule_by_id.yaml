@@ -1,0 +1,12 @@
+---
+name: get_alert_rule_by_id
+description: Get a single alert rule by ID
+runner_type: python-script
+entry_point: get_alert_rule_by_id.py
+enabled: true
+parameters:
+  id:
+    required: true
+    type: string
+    description: "ID of the alert rule to get"
+

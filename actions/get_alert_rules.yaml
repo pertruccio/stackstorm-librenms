@@ -1,0 +1,6 @@
+---
+name: get_alert_rules
+description: Get alert rules
+runner_type: python-script
+entry_point: get_alert_rules.py
+enabled: true
